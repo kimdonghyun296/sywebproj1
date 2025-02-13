@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-지금시간은 <%=new java.util.Date() %>입니다....
+지금시간은 <%=new java.util.Date() %>입니다입니다
 </body>
 </html>
