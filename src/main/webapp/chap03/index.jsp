@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-지금 저는 깃허브 연습중입니다
+index.jsp
 </body>
 </html>
