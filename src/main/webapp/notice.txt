@@ -1,1 +1,1 @@
-notice.txt입니다 !!!!!
+notice.txt내용 출력 입니다 !!!!!

@@ -16,4 +16,25 @@ xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/
 <param-value>5</param-value>
 </context-param>
 
+<error-page>
+<error-code>404</error-code>
+<location>/chap03/error404.jsp</location>
+</error-page>
+
+<jsp-config>
+ <jsp-property-group>
+ 	<url-pattern>/chap07/autoinclude/*</url-pattern>
+ 	<include-prelude>/chap07/autoinclude/common.jsp</include-prelude>
+ 	<include-coda>/chap07/autoinclude/footer.jsp</include-coda>
+ </jsp-property-group>
+</jsp-config>
+
+
+
+<context-param>
+<param-name>javax.servlet.jsp.jstl.fmt.timeZone</param-name>
+<param-value>Hongkong</param-value>
+</context-param>
+
+
 </web-app>
